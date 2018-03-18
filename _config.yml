@@ -1,5 +1,5 @@
 # Site settings
-title: antonio
+title: Antonio Silva
 description: 'Mobile Developer - eSports Enthusiast - Aggressive Inline Skating Beginner'
 url: 'http://www.antoniosj.com'
 # baseurl: '/antoniosj'
@@ -13,6 +13,7 @@ author:
   facebook_username: 
   github_username:  antoniosj
   linkedin_username:  antoniosj
+  medium_username: oi
 
 defaults:
   -
