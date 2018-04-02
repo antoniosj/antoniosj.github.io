@@ -4,4 +4,8 @@ date:   2018-01-01 10:00:00
 categories: [about]
 tags: [about]
 ---
-SOON!!
+
+Hi there, I'm Antonio Silva.
+
+I'm currently a Mobile Software Engineer and Msc student in Software Engineering. 
+(under construction).
