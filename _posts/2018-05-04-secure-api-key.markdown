@@ -11,5 +11,32 @@ So, I was woking on a company's project, and the customer who was paying this pr
 
 Yeah, a lot of projects don't worry about this, but it's a huge problem with people who uses third party APIs. So, I started to searching for solutions, and suddenly I found what I was looking for at Gradle's page. Basically you can put your API KEYs in `gradle.properties` file, or even create your own properties file. This is ONE of the solutions: 
 
-{soon}
+So, on your gradle.properties file, declare your key: 
+
+<img src="https://github.com/antoniosj/blog-examples/blob/master/Photos%20from%20blog/1_gradleproperties.png?raw=true"/>
+
+After that, go to your build.gradle (app) and define a variable for your key: 
+
+<img src="https://github.com/antoniosj/blog-examples/blob/master/Photos%20from%20blog/2_gradle.png?raw=true"/>
+
+And that's it. Now you can put your variable in your manifest file:
+
+{% highlight swift %}
+<meta-data
+     android:name="io.fabric.ApiKey"
+     android:value="${FABRIC_API_KEY}" />
+{% endhighlight %}
+
+Or in your kotlin file:
+
+{% highlight swift %}
+val retrofit = Retrofit.Builder()
+                .client(client)
+                .addCallAdapterFactory(RxJava2CallAdapterFactory.create())
+                .addConverterFactory(EmptyBodyConverterFactory())
+                .addConverterFactory(ScalarsConverterFactory.create())
+                .addConverterFactory(GsonConverterFactory.create(GsonBuilder().create()))
+                .baseUrl(BuildConfig.BASE_URL)
+                .build()
+{% endhighlight %}
 
