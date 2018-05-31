@@ -107,7 +107,7 @@ There's a lot of more places you can simplify your code. You can read the full d
 ### androidx
 
 
-Google is now giving `androidx.*` names to its prefix packages as you can see at Android KTX. It's because they have the intention to use it in their future versions of Android Support Library to differentiate which APIs are bundled with the platform and which are static libraries for app developers that work across differents versions of Android.
+Google is now giving `androidx.*` names to its prefix packages as you can see at Android KTX. It is because they have the intention to use it in their future versions of Android Support Library to differentiate which APIs are bundled with the platform and which are static libraries for app developers that work across differents versions of Android.
 {: .text-justify}
 
 	
