@@ -89,7 +89,7 @@ canvas.withTranslation(y = 100F) {
 }
 {% endhighlight %}
 
-<p style="text-align: justify; font-family: -apple-system, BlinkMacSystemFont, sans-serif;">There's a lot of more places you can simplify your code. You can read the full documentation <a href="https://android.github.io/android-ktx/core-ktx/">here</a>. You can also <a href="https://github.com/android/android-ktx/blob/master/CONTRIBUTING.md">contribute</a>to Android KTX with new ideas, giving your feedback, reporting defects and requesting features.</p>
+<p style="text-align: justify; font-family: -apple-system, BlinkMacSystemFont, sans-serif;">There's a lot of more places you can simplify your code. You can read the full documentation <a href="https://android.github.io/android-ktx/core-ktx/">here</a>. You can also <a href="https://github.com/android/android-ktx/blob/master/CONTRIBUTING.md">contribute</a> to Android KTX with new ideas, giving your feedback, reporting defects and requesting features.</p>
 
 
 
