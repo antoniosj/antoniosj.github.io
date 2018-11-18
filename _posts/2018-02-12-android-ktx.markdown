@@ -5,7 +5,7 @@ categories: [Android, Kotlin]
 tags: [android, kotlin, plugin, android-ktx]
 ---
 
-<div style="text-align: justify; font-family: -apple-system, BlinkMacSystemFont, sans-serif;" > Two weeks ago, Google announced a set of extensions designed to make writing kotlin code more concise, idiomatic and pleasant called Android KTX. The objective here seems to be help developers to write less code! You can check the repo of Android KTX </div> [here](https://github.com/android/android-ktx). 
+<p style="text-align: justify; font-family: -apple-system, BlinkMacSystemFont, sans-serif;" > Two weeks ago, Google announced a set of extensions designed to make writing kotlin code more concise, idiomatic and pleasant called Android KTX. The objective here seems to be help developers to write less code! You can check the repo of Android KTX </p> [here](https://github.com/android/android-ktx). 
 
 <img src="https://github.com/antoniosj/blog-examples/blob/master/Photos%20from%20blog/kotlin-android-learn.png?raw=true"/>
 
