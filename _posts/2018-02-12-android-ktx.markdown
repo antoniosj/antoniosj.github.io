@@ -11,7 +11,7 @@ tags: [android, kotlin, plugin, android-ktx]
 
 
 ### Getting Started
-<p style="text-align: justify; font-family: -apple-system, BlinkMacSystemFont, sans-serif;" >To start using Android KTX you only need to put this on your <span style="background-color: #7CFC00">build.gradle</span>:</p>
+<p style="text-align: justify; font-family: -apple-system, BlinkMacSystemFont, sans-serif;">To start using Android KTX you only need to put this on your <span style="background-color: #7CFC00">build.gradle</span>:</p>
 
 
 {% highlight gradle %}
@@ -27,7 +27,7 @@ dependencies {
 {% endhighlight %}
 
 
-Now, lets start comparing kotlin with and without Android KTX: 
+<p style="text-align: justify; font-family: -apple-system, BlinkMacSystemFont, sans-serif;">Now, lets start comparing kotlin with and without Android KTX:</p> 
 
 **Shared Preferences**
 
@@ -89,11 +89,7 @@ canvas.withTranslation(y = 100F) {
 }
 {% endhighlight %}
 
-
-
-There's a lot of more places you can simplify your code. You can read the full documentation [here](https://android.github.io/android-ktx/core-ktx/). You can also [contribute](https://github.com/android/android-ktx/blob/master/CONTRIBUTING.md) to Android KTX with new ideas, giving your feedback, reporting defects and requesting features. 
-{: .text-justify}
-
+<p style="text-align: justify; font-family: -apple-system, BlinkMacSystemFont, sans-serif;">There's a lot of more places you can simplify your code. You can read the full documentation <a href="https://android.github.io/android-ktx/core-ktx/">here</a>. You can also <a href="https://github.com/android/android-ktx/blob/master/CONTRIBUTING.md">contribute</a>to Android KTX with new ideas, giving your feedback, reporting defects and requesting features.</p>
 
 
 
@@ -106,7 +102,7 @@ There's a lot of more places you can simplify your code. You can read the full d
 ### androidx
 
 
-Google is now giving `androidx.*` names to its prefix packages as you can see at Android KTX. It is because they have the intention to use it in their future versions of Android Support Library to differentiate which APIs are bundled with the platform and which are static libraries for app developers that work across differents versions of Android.
-{: .text-justify}
+<p style="text-align: justify; font-family: -apple-system, BlinkMacSystemFont, sans-serif;">Google is now giving <span style="background-color: #7CFC00">androidx.</span> names to its prefix packages as you can see at Android KTX. It is because they have the intention to use it in their future versions of Android Support Library to differentiate which APIs are bundled with the platform and which are static libraries for app developers that work across differents versions of Android.</p>
+
 
 	
