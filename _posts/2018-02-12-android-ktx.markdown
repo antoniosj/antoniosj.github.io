@@ -11,7 +11,7 @@ tags: [android, kotlin, plugin, android-ktx]
 
 
 ### Getting Started
-<p style="text-align: justify; font-family: -apple-system, BlinkMacSystemFont, sans-serif;" >To start using Android KTX you only need to put this on your <span style="background-color: #4e1a4e">build.gradle</span>:</p>
+<p style="text-align: justify; font-family: -apple-system, BlinkMacSystemFont, sans-serif;" >To start using Android KTX you only need to put this on your <span style="background-color: #7CFC00">build.gradle</span>:</p>
 
 
 {% highlight gradle %}
