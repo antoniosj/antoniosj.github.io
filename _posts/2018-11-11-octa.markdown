@@ -20,6 +20,7 @@ Determining the correct output for a given input is known as the test oracle pro
 
 **Human:**
 
+<p>One of the problems is related a oracles in test case documents. In a determined context, testers were writting test case documents kind confused and this was causing some derived oracle problems, so I decided to built an classifier, using the company's project dataset to help testers write better test case documents, reducing the oracle problems and making easier to verify its behavior</>
 
 
-<hr><hr><hr>
+// under construction // 
