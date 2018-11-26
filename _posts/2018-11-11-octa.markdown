@@ -12,10 +12,10 @@ Determining the correct output for a given input is known as the test oracle pro
 
 <p>Oracles can be categorized in:</p>
 
-<b>Specified:</b>
-<b>Derived:</b>
-<b>Implicit:</b>
-<b>Human:</b>
+<b>Specified:</b> <br/>
+<b>Derived:</b> <br/>
+<b>Implicit:</b> <br/>
+<b>Human:</b> <br/>
 
 
 
