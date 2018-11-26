@@ -14,13 +14,12 @@ Determining the correct output for a given input is known as the test oracle pro
 
 **Specified:** 
 
+**Derived:**
 
-### Derived:
+**Implicit:**
 
-### Implicit:
-
-### Human:
-
+**Human:**
 
 
-<hr>
+
+<hr><hr><hr>
