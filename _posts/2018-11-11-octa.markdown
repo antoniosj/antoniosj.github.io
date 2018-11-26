@@ -7,6 +7,16 @@ tags: [Python, ML, NLP, NLTK, Scikit-learn]
 
 ## Background
 
-<p>In computing, oracle (test) is a mechanism for determining whether a test has passed or failed. The use of oracles involves comparing the outputs of the system under test for a test-case input. </p>
+<p>In computing, oracle (test) is a mechanism for determining whether a test has passed or failed. The use of oracles involves comparing the outputs of the system under test for a test-case input.
+Determining the correct output for a given input is known as the test oracle problem.
+
+Oracles can be categorized in:
+
+<b>Specified:</b>
+<b>Derived:</b>
+<b>Implicit:</b>
+<b>Human:</b>
+
+</p>
 
 <hr>
