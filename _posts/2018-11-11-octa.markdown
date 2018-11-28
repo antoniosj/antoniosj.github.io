@@ -10,15 +10,7 @@ tags: [Python, ML, NLP, NLTK, Scikit-learn]
 <p>In computing, oracle (test) is a mechanism for determining whether a test has passed or failed. The use of oracles involves comparing the outputs of the system under test for a test-case input.
 Determining the correct output for a given input is known as the test oracle problem.</p>
 
-<p>Oracles can be categorized in:</p>
-
-**Specified:** 
-
-**Derived:**
-
-**Implicit:**
-
-**Human:**
+<p>Oracles can be categorized in:</p> **Specified - Derived - Implicit - Human:** as you can check here (I'll put the link soon)
 
 <p>One of the problems is related a oracles in test case documents. In a determined context, testers were writting test case documents kind confused and this was causing some derived oracle problems, so I decided to built an classifier, using the company's project dataset to help testers write better test case documents, reducing the oracle problems and making easier to verify its behavior</p>
 
