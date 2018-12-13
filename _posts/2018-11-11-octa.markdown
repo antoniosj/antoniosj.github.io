@@ -14,5 +14,8 @@ Determining the correct output for a given input is known as the test oracle pro
 
 <p>One of the problems is related a oracles in test case documents. In a determined context, testers were writting test case documents kind confused and this was causing some derived oracle problems, so I decided to built an classifier, using the company's project dataset to help testers write better test case documents, reducing the oracle problems and making easier to verify its behavior</p>
 
+I made a tool called OCTA for test case documents classification. I used controlled language (PENG) concepts to standard the text, creating a catalog of good practices of how a test case document should be written in terms of oracle. And also I read a lot of oracle problem acticles to get knowledge of what scientists were doing to contribute to this subject. 
+
+
 
 // under construction // 
