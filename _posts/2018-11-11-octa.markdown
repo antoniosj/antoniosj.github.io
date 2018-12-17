@@ -16,6 +16,17 @@ Determining the correct output for a given input is known as the test oracle pro
 
 I made a tool called OCTA for test case documents classification. I used controlled language (PENG) concepts to standard the text, creating a catalog of good practices of how a test case document should be written in terms of oracle. And also I read a lot of oracle problem acticles to get knowledge of what scientists were doing to contribute to this subject. 
 
+## Libraries imported 
 
+{% highlight python %}
+import matplotlib.pyplot as plt
+import numpy as np
+from sklearn.feature_extraction.text import TfidfVectorizer
+from sklearn.metrics import confusion_matrix, accuracy_score, classification_report
+from sklearn.model_selection import train_test_split, GridSearchCV, StratifiedKFold, cross_val_score
+from sklearn.svm import SVC
+
+from utils import preprocess_sentences
+{% endhighlight %}
 
 // under construction // 
