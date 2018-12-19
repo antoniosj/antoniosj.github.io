@@ -29,4 +29,6 @@ from sklearn.svm import SVC
 from utils import preprocess_sentences
 {% endhighlight %}
 
+Here I'm using sklearn, nltk, np and so on. The method to process the sentences was TF-IDF. 
+
 // under construction // 
