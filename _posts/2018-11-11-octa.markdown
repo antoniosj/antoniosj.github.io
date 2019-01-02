@@ -52,7 +52,7 @@ not_oracles_target = ['not_oracle'] * len(preprocessed_not_oracles)
 target_data = oracles_target + not_oracles_target
 
 X_train, X_test, y_train, y_test = train_test_split(all_data, target_data, test_size=0.25, random_state=0)
-{% endhightlight %}
+{% endhighlight %}
 
 After all I decided to use the Support Vector Machine (SVM) classifier because of the (not so long) size of the dataset. I also tried other 3 classifiers but SVM gave me the best results. 
 
