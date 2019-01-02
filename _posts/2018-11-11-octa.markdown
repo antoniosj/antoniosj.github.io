@@ -18,6 +18,8 @@ I made a tool called OCTA for test case documents classification. I used control
 
 ## Libraries imported 
 
+Here I'm using sklearn, nltk, np and so on. The method to process the sentences was TF-IDF. 
+
 {% highlight python %}
 import matplotlib.pyplot as plt
 import numpy as np
@@ -29,6 +31,42 @@ from sklearn.svm import SVC
 from utils import preprocess_sentences
 {% endhighlight %}
 
-Here I'm using sklearn, nltk, np and so on. The method to process the sentences was TF-IDF. 
+And then I pre processed texts from two datasets, the oracles and non oracles, and after that I split the data into 75% train and 25% test. 
+
+{% highlight python %}
+with open('resources/not_oracle_en.txt') as not_oracle_file:
+		not_oracle_examples = not_oracle_file.readlines()
+
+with open('resources/oracle_en2.txt') as oracle_file:
+		oracle_examples = oracle_file.readlines()
+
+not_oracle_examples = [x[2:] for x in not_oracle_examples]
+oracle_examples = [x[2:] for x in oracle_examples]
+
+preprocessed_oracles = preprocess_sentences(oracle_examples)
+preprocessed_not_oracles = preprocess_sentences(not_oracle_examples)
+
+all_data = preprocessed_oracles + preprocessed_not_oracles
+oracles_target = ['oracle'] * len(preprocessed_oracles)
+not_oracles_target = ['not_oracle'] * len(preprocessed_not_oracles)
+target_data = oracles_target + not_oracles_target
+
+X_train, X_test, y_train, y_test = train_test_split(all_data, target_data, test_size=0.25, random_state=0)
+{% endhightlight %}
+
+After all I decided to use the Support Vector Machine (SVM) classifier because of the (not so long) size of the dataset. I also tried other 3 classifiers but SVM gave me the best results. 
+
+{% highlight python %}
+if os.path.exists('best_svm.sav'):
+		best_svm_model = joblib.load('best_svm.sav')
+	else:
+		best_svm = choose_best_svm(X_train, y_train)
+		best_svm_model = best_svm[0]
+		joblib.dump(best_svm_model, 'best_svm.sav')
+
+final_result(best_svm_model, 'SVM', X_train, y_train)
+{% endhighlight %}
+
+My model was ready but I had to put on the web using flask and after that I created a catalog using my model's intelligence to guide new testers on a test case document development. Unfortunately I cannot share the entire project because a company sponsored me, but I can share the structure I used to built the entire application, which is <a href="https://github.com/antoniosj/octa/">here</a>. 
 
 // under construction // 
