@@ -7,18 +7,18 @@ tags: [Python, ML, NLP, NLTK, Scikit-learn]
 
 ## Background
 
-<p>In computing, oracle (test) is a mechanism for determining whether a test has passed or failed. The use of oracles involves comparing the outputs of the system under test for a test-case input.
+<p style="text-align: justify; font-family: -apple-system, BlinkMacSystemFont, sans-serif;" >In computing, oracle (test) is a mechanism for determining whether a test has passed or failed. The use of oracles involves comparing the outputs of the system under test for a test-case input.
 Determining the correct output for a given input is known as the test oracle problem.</p>
 
-<p>Oracles can be categorized in:</p> **Specified - Derived - Implicit - Human** as you can check <a href="https://ieeexplore.ieee.org/abstract/document/6963470/">here</a>
+<p style="text-align: justify; font-family: -apple-system, BlinkMacSystemFont, sans-serif;" >Oracles can be categorized in:</p> **Specified - Derived - Implicit - Human** as you can check <a href="https://ieeexplore.ieee.org/abstract/document/6963470/">here</a>
 
-<p>One of the problems is related a oracles in test case documents. In a determined context, testers were writting test case documents kind confused and this was causing some derived oracle problems, so I decided to built an classifier, using the company's project dataset to help testers write better test case documents, reducing the oracle problems and making easier to verify its behavior</p>
+<p style="text-align: justify; font-family: -apple-system, BlinkMacSystemFont, sans-serif;" >One of the problems is related a oracles in test case documents. In a determined context, testers were writting test case documents kind confused and this was causing some derived oracle problems, so I decided to built an classifier, using the company's project dataset to help testers write better test case documents, reducing the oracle problems and making easier to verify its behavior</p>
 
-I made a tool called OCTA for test case documents classification. I used controlled language (PENG) concepts to standard the text, creating a catalog of good practices of how a test case document should be written in terms of oracle. And also I read a lot of oracle problem acticles to get knowledge of what scientists were doing to contribute to this subject. 
+<p style="text-align: justify; font-family: -apple-system, BlinkMacSystemFont, sans-serif;" >I made a tool called OCTA for test case documents classification. I used controlled language (PENG) concepts to standard the text, creating a catalog of good practices of how a test case document should be written in terms of oracle. And also I read a lot of oracle problem acticles to get knowledge of what scientists were doing to contribute to this subject.</p> 
 
 ## Libraries imported 
 
-Here I'm using sklearn, nltk, np and so on. The method to process the sentences was TF-IDF. 
+<p style="text-align: justify; font-family: -apple-system, BlinkMacSystemFont, sans-serif;" >Here I'm using sklearn, nltk, np and so on. The method to process the sentences was TF-IDF.</p> 
 
 {% highlight python %}
 import matplotlib.pyplot as plt
@@ -31,7 +31,7 @@ from sklearn.svm import SVC
 from utils import preprocess_sentences
 {% endhighlight %}
 
-And then I pre processed texts from two datasets, the oracles and non oracles, and after that I split the data into 75% train and 25% test. 
+<p style="text-align: justify; font-family: -apple-system, BlinkMacSystemFont, sans-serif;" >And then I pre processed texts from two datasets, the oracles and non oracles, and after that I split the data into 75% train and 25% test.</p> 
 
 {% highlight python %}
 with open('resources/not_oracle_en.txt') as not_oracle_file:
@@ -54,7 +54,7 @@ target_data = oracles_target + not_oracles_target
 X_train, X_test, y_train, y_test = train_test_split(all_data, target_data, test_size=0.25, random_state=0)
 {% endhighlight %}
 
-After all I decided to use the Support Vector Machine (SVM) classifier because of the (not so long) size of the dataset. I also tried other 3 classifiers but SVM gave me the best results. 
+<p style="text-align: justify; font-family: -apple-system, BlinkMacSystemFont, sans-serif;" >After all I decided to use the Support Vector Machine (SVM) classifier because of the (not so long) size of the dataset. I also tried other 3 classifiers but SVM gave me the best results.</p> 
 
 {% highlight python %}
 if os.path.exists('best_svm.sav'):
@@ -67,6 +67,6 @@ if os.path.exists('best_svm.sav'):
 final_result(best_svm_model, 'SVM', X_train, y_train)
 {% endhighlight %}
 
-My model was ready but I had to put on the web using flask and after that I created a catalog using my model's intelligence to guide new testers on a test case document development. Unfortunately I cannot share the entire project because a company sponsored me, but I can share the structure I used to built the entire application, which is <a href="https://github.com/antoniosj/octa/">here</a>. 
+<p style="text-align: justify; font-family: -apple-system, BlinkMacSystemFont, sans-serif;" >My model was ready but I had to put on the web using flask and after that I created a catalog using my model's intelligence to guide new testers on a test case document development. Unfortunately I cannot share the entire project because a company sponsored me, but I can share the structure I used to built the entire application, which is <a href="https://github.com/antoniosj/octa/">here</a>.</p> 
 
 // under construction // /
