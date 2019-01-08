@@ -18,7 +18,7 @@ tags: [android, api-key, gradle, kotlin]
 
 <p style="text-align: justify; font-family: -apple-system, BlinkMacSystemFont, sans-serif;">After that, go to your <span style="background-color: #DAE3FD">build.gradle (app)</span> and define a variable for your key:</p> 
 
-<img src="https://github.com/antoniosj/blog-examples/blob/master/Photos%20from%20blog/2_gradle.png?raw=true"/>
+<p style="text-align: justify; font-family: -apple-system, BlinkMacSystemFont, sans-serif;"><img src="https://github.com/antoniosj/blog-examples/blob/master/Photos%20from%20blog/2_gradle.png?raw=true"/></p>
 
 <p style="text-align: justify; font-family: -apple-system, BlinkMacSystemFont, sans-serif;">And that's it. Now you can put your variable in your manifest file:</p>
 
