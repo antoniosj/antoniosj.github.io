@@ -68,5 +68,3 @@ final_result(best_svm_model, 'SVM', X_train, y_train)
 {% endhighlight %}
 
 <p style="text-align: justify; font-family: -apple-system, BlinkMacSystemFont, sans-serif;" >My model was ready but I had to put on the web using flask and after that I created a catalog using my model's intelligence to guide new testers on a test case document development. Unfortunately I cannot share the entire project because a company sponsored me, but I can share the structure I used to built the entire application, which is <a href="https://github.com/antoniosj/octa/">here</a>.</p> 
-
-// under construction // /
