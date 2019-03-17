@@ -7,6 +7,6 @@ tags: [about, project]
 
 Rerseved space for future projects! 
 
-| OCTA  	|   	|   	|  	
+| OCTA  	|   Project 2	|  Project 3  	|  	
 |:-:	|:-:	|:-:	|
-| *Image, desc*|   	|   	| 
+| *Image, desc*|  Desc 	|  Desc  	| 
