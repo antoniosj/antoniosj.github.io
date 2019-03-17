@@ -9,4 +9,4 @@ Rerseved space for future projects!
 
 | OCTA  	|     |       |	
 |:-:	|:-:	|:-:	|
-| *Image, desc*|  Desc 	|  Desc  	| 
+| <img src="https://github.com/antoniosj/blog-examples/blob/master/github-images/octa.png?raw=true" width="118px;"/><br /><sub> teste </sub>|  Desc 	|  Desc  	| 
