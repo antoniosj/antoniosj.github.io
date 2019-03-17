@@ -8,5 +8,5 @@ tags: [about, project]
 Rerseved space for future projects! 
 
 | OCTA  	|  	
-|:---:	|:-:	|:-:	|
+|:-:	|:-:	|:-:	|
 | *Image, desc*|  Desc 	|  Desc  	| 
