@@ -1,8 +1,8 @@
 ---
 title:  "Creating a cool list of categories with RecyclerView"
 date:   2019-03-22 22:00:00
-categories: [Android, Mobile]
-tags: [XML, Android, Kotlin, Mobile, Material Design]
+categories: [android, mobile]
+tags: [xml, android, kotlin, mobile, material design]
 ---
 
 I'm building a guessing game with eSports theme, so I decided to use a few free images to create a list of categories and the first result was this: 
