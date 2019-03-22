@@ -7,6 +7,10 @@ tags: [XML, Android, Kotlin, Mobile, Material Design]
 
 I'm building a guessing game with eSports theme, so I decided to use a few free images to create a list of categories and the first result was this: 
 
+// under construction //
+
+and the XML file for the item on list:
+
 {% highlight swift %}
 
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -18,7 +22,7 @@ I'm building a guessing game with eSports theme, so I decided to use a few free 
               android:adjustViewBounds="true"
               android:layout_height="200dp">
 
-    <TextView
+   <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="@android:color/white"
@@ -28,5 +32,6 @@ I'm building a guessing game with eSports theme, so I decided to use a few free 
 </LinearLayout>
 
 {% endhightlight %}
+
 
 // under construction //
