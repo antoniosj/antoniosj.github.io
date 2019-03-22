@@ -31,7 +31,7 @@ and the XML file for the item on list:
 
 </LinearLayout>
 
-{% endhightlight %}
+{% endhighlight %}
 
 
 // under construction //
