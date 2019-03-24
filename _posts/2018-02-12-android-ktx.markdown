@@ -1,7 +1,7 @@
 ---
 title:  "Android KTX"
 date:   2018-02-12 15:04:23
-categories: [Android, Kotlin]
+categories: [android, kotlin]
 tags: [android, kotlin, plugin, android-ktx]
 ---
 
