@@ -9,7 +9,7 @@ I'm building a guessing game with eSports theme, so I decided to use a few free 
 
 // Image 1 //
 
-and the XML file for the item on list:
+and the XML file for the item on the list:
 
 {% highlight swift %}
 
@@ -33,11 +33,11 @@ and the XML file for the item on list:
 
 {% endhighlight %}
 
-The first problem in my point of view was the size of the images. I had big images and this was making my layout a bit slow for a Moto G5 device. Other issue was the colors of the images, so I decided to change to make it seems like a "game" app.
+The first problem in my point of view was the size of the images. I had big images and this was making my layout a bit slow for a Moto G5 device. Another issue was the colors of the images, so I decided to change to make it seems like a "game" app.
 
 // image here //
 
-In the end, I started to do some improves, first of all, I downloaded a nice font (.ftt) and then I changed my item layout. I also create an edge between images, and then I made a bottom overlay for each image. Finally my RecyclerView become this:   
+In the end, I started to do some improves, first of all, I downloaded a nice font (.ftt) and then I changed my item layout. I also create an edge between images, and then I made a bottom overlay for each image. Finally, my RecyclerView become this:   
 
 // image here ///
 
