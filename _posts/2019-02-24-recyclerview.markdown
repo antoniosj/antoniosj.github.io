@@ -37,7 +37,7 @@ The first problem in my point of view was the size of the images. I had big imag
 
 // image here //
 
-In the end, I started to do some improves, first of all, I downloaded a nice font (.ftt) and then I changed my item layout. I also create an edge between images, and then I made a bottom overlay for each image. Finally, my RecyclerView become this:   
+In the end, I started to do some improves, first of all, I downloaded a nice font (.ftt) and then I changed my item layout. I also create an edge between images, and then I made a bottom overlay for each image. Finally, I used ripple library to make an animation effect on touch and my RecyclerView become this:   
 
 // image here ///
 
