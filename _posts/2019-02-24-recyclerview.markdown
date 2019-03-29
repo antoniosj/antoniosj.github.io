@@ -7,7 +7,7 @@ tags: [xml, android, kotlin, mobile, material design]
 
 I'm building a guessing game with eSports theme, so I decided to use a few free images to create a list of categories and the first result was this: 
 
- <img src="https://github.com/antoniosj/antoniosj.github.io/blob/master/images/posts/rv_1.png?raw=true" width="400px"/>
+ <div style="text-align:center"><img src="https://github.com/antoniosj/antoniosj.github.io/blob/master/images/posts/rv_1.png?raw=true" width="400px"/></div>
  
 
 and the XML file for the item on the list:
@@ -38,9 +38,13 @@ The first problem in my point of view was the size of the images. I had big imag
 
  <img src="https://github.com/antoniosj/antoniosj.github.io/blob/master/images/posts/rv_2.png?raw=true" width="400px"/>
 
-In the end, I started to do some improves, first of all, I downloaded a nice font (.ftt) and then I changed my item layout. I also create an edge between images, and then I made a bottom overlay for each image. Finally, I used ripple library to make an animation effect on touch and my RecyclerView become this:   
+In the end, I started to do some improves, first of all, I downloaded a nice font (.ftt) and then I changed my item layout. I also create an edge between images, and then I made a bottom overlay for each image. Finally, I used RippleEffect library to make an animation effect on touch and my RecyclerView become this:   
 
 <img src="https://github.com/antoniosj/antoniosj.github.io/blob/master/images/posts/rv_3.png?raw=true" width="400px"/>
+
+
+RippleEffect library:
+![RippleEffect GIF](https://github.com/antoniosj/antoniosj.github.io/blob/master/images/posts/rippleeffect.gif?raw=true)
 
 And my layout:
 
