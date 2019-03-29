@@ -7,7 +7,7 @@ tags: [xml, android, kotlin, mobile, material design]
 
 I'm building a guessing game with eSports theme, so I decided to use a few free images to create a list of categories and the first result was this: 
 
- <img src="https://github.com/antoniosj/antoniosj.github.io/blob/master/images/posts/rv_1.png?raw=true" width="118px" height="118px;" />
+ <img src="https://github.com/antoniosj/antoniosj.github.io/blob/master/images/posts/rv_1.png?raw=true" width="400px"/>
  
 
 and the XML file for the item on the list:
