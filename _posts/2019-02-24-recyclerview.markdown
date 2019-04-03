@@ -44,8 +44,9 @@ In the end, I started to do some improves, first of all, I downloaded a nice fon
 
 
 RippleEffect library:
-
+{:refdef: style="text-align: center;"}
 ![RippleEffect GIF](https://github.com/antoniosj/antoniosj.github.io/blob/master/images/posts/rippleeffect.gif?raw=true)
+{:refdef}
 
 And my layout:
 
