@@ -48,7 +48,9 @@ RippleEffect library:
 ![RippleEffect GIF](https://github.com/antoniosj/antoniosj.github.io/blob/master/images/posts/rippleeffect.gif?raw=true)
 {:refdef}
 
-And my layout:
+Well, as I wanted to make a black layout, I added some last touches:  
+
+And my layout (TODO: code bellow):
 
 
 // src code here //
