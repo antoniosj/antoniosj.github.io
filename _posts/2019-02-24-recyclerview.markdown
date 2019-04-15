@@ -9,8 +9,6 @@ tags: [xml, android, kotlin, mobile, material design]
 
 <div style="text-align:center"><img src="https://github.com/antoniosj/antoniosj.github.io/blob/master/images/posts/rv_1.png?raw=true" width="400px"/></div>
 
-
- 
 <p style="text-align: justify; font-family: -apple-system, BlinkMacSystemFont, sans-serif;" >and the XML file for the item on the list:</p>
 
 {% highlight swift %}
@@ -44,7 +42,7 @@ tags: [xml, android, kotlin, mobile, material design]
 <div style="text-align:center"><img src="https://github.com/antoniosj/antoniosj.github.io/blob/master/images/posts/rv_3.png?raw=true" width="400px"/></div>
 
 
-### RippleEffect library:
+### RippleEffect library
 
 {:refdef: style="text-align: center;"}
 ![RippleEffect GIF](https://github.com/antoniosj/antoniosj.github.io/blob/master/images/posts/rippleeffect.gif?raw=true)
@@ -57,7 +55,7 @@ tags: [xml, android, kotlin, mobile, material design]
 <p style="text-align: justify; font-family: -apple-system, BlinkMacSystemFont, sans-serif;" >And my layout:</p>
 
 
-### Toolbar: 
+### Toolbar
 
 {% highlight swift %}
 
@@ -77,7 +75,7 @@ tags: [xml, android, kotlin, mobile, material design]
 
 {% endhighlight %}
 
-### Category item:
+### Category item
 
 {% highlight swift %}
 
