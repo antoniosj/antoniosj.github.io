@@ -7,7 +7,7 @@ tags: [xml, android, kotlin, mobile, material design]
 
 <p style="text-align: justify; font-family: -apple-system, BlinkMacSystemFont, sans-serif;" >I'm building a guessing game with eSports theme, so I decided to use a few free images to create a list of categories and the first result was this:</p> 
 
-<div style="text-align:center"><img src="https://github.com/antoniosj/antoniosj.github.io/blob/master/images/posts/rv_1.png?raw=true" width="400px"/></div>
+<div style="text-align:center"><img src="https://github.com/antoniosj/antoniosj.github.io/blob/master/images/posts/rv_1.png?raw=true" width="400px"/></div><br/>
  
 <p style="text-align: justify; font-family: -apple-system, BlinkMacSystemFont, sans-serif;" >and the XML file for the item on the list:</p>
 
