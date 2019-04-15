@@ -5,12 +5,11 @@ categories: [android, mobile]
 tags: [xml, android, kotlin, mobile, material design]
 ---
 
-I'm building a guessing game with eSports theme, so I decided to use a few free images to create a list of categories and the first result was this: 
+<p style="text-align: justify; font-family: -apple-system, BlinkMacSystemFont, sans-serif;" >I'm building a guessing game with eSports theme, so I decided to use a few free images to create a list of categories and the first result was this:</p> 
 
- <div style="text-align:center"><img src="https://github.com/antoniosj/antoniosj.github.io/blob/master/images/posts/rv_1.png?raw=true" width="400px"/></div>
+<div style="text-align:center"><img src="https://github.com/antoniosj/antoniosj.github.io/blob/master/images/posts/rv_1.png?raw=true" width="400px"/></div>
  
-
-and the XML file for the item on the list:
+<p style="text-align: justify; font-family: -apple-system, BlinkMacSystemFont, sans-serif;" >and the XML file for the item on the list:</p>
 
 {% highlight swift %}
 
@@ -34,25 +33,27 @@ and the XML file for the item on the list:
 
 {% endhighlight %}
 
-The first problem in my point of view was the size of the images. I had big images and this was making my layout a bit slow for a Moto G5 device. Another issue was the colors of the images, so I decided to change to make it seems like a "game" app.
+<p style="text-align: justify; font-family: -apple-system, BlinkMacSystemFont, sans-serif;" >The first problem in my point of view was the size of the images. I had big images and this was making my layout a bit slow for a Moto G5 device. Another issue was the colors of the images, so I decided to change to make it seems like a "game" app.</p>
 
- <div style="text-align:center"><img src="https://github.com/antoniosj/antoniosj.github.io/blob/master/images/posts/rv_2.png?raw=true" width="400px"/></div>
+<div style="text-align:center"><img src="https://github.com/antoniosj/antoniosj.github.io/blob/master/images/posts/rv_2.png?raw=true" width="400px"/></div>
 
-In the end, I started to do some improves, first of all, I downloaded a nice font (.ftt) and then I changed my item layout. I also create an edge between images, and then I made a bottom overlay for each image. Finally, I used RippleEffect library to make an animation effect on touch and my RecyclerView become this:   
+<p style="text-align: justify; font-family: -apple-system, BlinkMacSystemFont, sans-serif;" >In the end, I started to do some improves, first of all, I downloaded a nice font (.ftt) and then I changed my item layout. I also create an edge between images, and then I made a bottom overlay for each image. Finally, I used RippleEffect library to make an animation effect on touch and my RecyclerView become this:</p>   
 
 <div style="text-align:center"><img src="https://github.com/antoniosj/antoniosj.github.io/blob/master/images/posts/rv_3.png?raw=true" width="400px"/></div>
 
 
-RippleEffect library:
+### RippleEffect library:
+
 {:refdef: style="text-align: center;"}
 ![RippleEffect GIF](https://github.com/antoniosj/antoniosj.github.io/blob/master/images/posts/rippleeffect.gif?raw=true)
 {:refdef}
 
-Well, as I wanted to make a black layout, I added some last touches:  
+<p style="text-align: justify; font-family: -apple-system, BlinkMacSystemFont, sans-serif;" >Well, as I wanted to make a black layout, I added some last touches:</p>  
 
 <div style="text-align:center"><img src="https://github.com/antoniosj/antoniosj.github.io/blob/master/images/posts/rv_4.png?raw=true" width="400px"/></div>
 
-And my layout:
+<p style="text-align: justify; font-family: -apple-system, BlinkMacSystemFont, sans-serif;" >And my layout:</p>
+
 
 ### Toolbar: 
 
@@ -184,5 +185,5 @@ And my layout:
 
 {% endhighlight %}
 
-There's a lot of improvements to make but I think this is a way to go.  
+<p style="text-align: justify; font-family: -apple-system, BlinkMacSystemFont, sans-serif;" >There's a lot of improvements to make but I think this is a way to go.</p>  
 
