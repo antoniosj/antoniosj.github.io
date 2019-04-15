@@ -9,6 +9,7 @@ tags: [xml, android, kotlin, mobile, material design]
 
 <div style="text-align:center"><img src="https://github.com/antoniosj/antoniosj.github.io/blob/master/images/posts/rv_1.png?raw=true" width="400px"/></div>
 
+
  
 <p style="text-align: justify; font-family: -apple-system, BlinkMacSystemFont, sans-serif;" >and the XML file for the item on the list:</p>
 
