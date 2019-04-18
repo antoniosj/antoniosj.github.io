@@ -16,4 +16,4 @@ Rerseved space for future projects!
 
 | StickySessions - iOS | TBD | TBD  |      	
 | :---:	| :---:	| :---: |
-| <img src="https://github.com/antoniosj/antoniosj.github.io/blob/master/images/posts/apple.png?raw=true" width="118px;" height="118px;" /><br /><a href="https://github.com/DiscordTime/sticky-sessions-android">StickySessions</a> is an app that helps teams to share and store their thoughts through digital-like retrospective sessions <br />**Role:** Contributor<br /> **Technologies:** iOS - Swift - Cocoapods - Alamofire - MVVM Architecture | TBD | TBD | 
+| <img src="https://github.com/antoniosj/antoniosj.github.io/blob/master/images/posts/apple.png?raw=true" width="118px;" height="118px;" /><br /><a href="https://github.com/DiscordTime/sticky-sessions-ios">StickySessions</a> is an app that helps teams to share and store their thoughts through digital-like retrospective sessions <br />**Role:** Contributor<br /> **Technologies:** iOS - Swift - Cocoapods - Alamofire - MVVM Architecture | TBD | TBD | 
