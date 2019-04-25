@@ -1366,6 +1366,13 @@ nav {
 	display: inline-block;
 	position: relative; }
 
+.navigationblock {
+	display: block;
+	float: left;
+	position: relative;
+	margin: 0;
+	list-style-type: none; }
+
 .navigation {
 	display: inline-block;
 	float: left;
