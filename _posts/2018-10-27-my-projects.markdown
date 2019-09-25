@@ -13,7 +13,7 @@ Test 1:
 
 OCTA
 
-<p style="text-align: justify; font-family: -apple-system, BlinkMacSystemFont, sans-serif;"><img src="https://github.com/antoniosj/blog-examples/blob/master/github-images/octa.png?raw=true" justify-content"center" width="218px;" height="218px;" /></p><br /><a href="https://www.antoniosj.com/2018/octa/">OCTA</a> is a tool for test case documents classification, which aims to improve its quality using Machine Learning and NLP <br /> **Role:** Creator<br /> **Technologies:** Python - NLP (NLTK) - ML (SVM) - Flask
+<p style="text-align: justify; font-family: -apple-system, BlinkMacSystemFont, sans-serif;"><img src="https://github.com/antoniosj/blog-examples/blob/master/github-images/octa.png?raw=true" align="middle" width="218px;" height="218px;" /></p><br /><a href="https://www.antoniosj.com/2018/octa/">OCTA</a> is a tool for test case documents classification, which aims to improve its quality using Machine Learning and NLP <br /> **Role:** Creator<br /> **Technologies:** Python - NLP (NLTK) - ML (SVM) - Flask
 
 
 | OCTA | Stormchat |  StickySessions - Android |      	
