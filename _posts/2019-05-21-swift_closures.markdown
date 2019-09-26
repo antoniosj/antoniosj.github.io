@@ -41,7 +41,7 @@ calculator(n1: 3, n2: 4, operation:add)
 }
 ```
 
-<p style="text-align: justify; font-family: -apple-system, BlinkMacSystemFont, sans-serif;">And now we have this:
+<p style="text-align: justify; font-family: -apple-system, BlinkMacSystemFont, sans-serif;">And now we have this:</p>
 
 ```swift
 func calculator(n1: Int, n2: Int, operation: (Int, Int) -> Int) -> Int { 
