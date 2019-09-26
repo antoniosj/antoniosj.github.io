@@ -48,7 +48,7 @@ func calculator(n1: Int, n2: Int, operation: (Int, Int) -> Int) -> Int {
   return operation(n1, n2)
 }
   
-calculator(n1: 3, n2: 4, (n1: Int, n2: Int, operation: { (n1: Int, n2: Int) -> Int) -> Int in  
+calculator(n1: 3, n2: 4, operation: { (n1: Int, n2: Int) -> Int) -> Int in  
       return n1 + n2
 })
 ```
