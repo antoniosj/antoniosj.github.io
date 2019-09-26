@@ -60,7 +60,7 @@ func calculator(n1: Int, n2: Int, operation: (Int, Int) -> Int) -> Int {
   return operation(n1, n2)
 }
   
-calculator(n1: 3, n2: 4, (n1: Int, n2: Int, operation: { (n1, n2) in 
+calculator(n1: 3, n2: 4, operation: { (n1, n2) in 
 n1 + n2 
 })
 ```
@@ -72,7 +72,7 @@ func calculator(n1: Int, n2: Int, operation: (Int, Int) -> Int) -> Int {
   return operation(n1, n2)
 }
   
-calculator(n1: 3, n2: 4, (n1: Int, n2: Int, { $0 + $1 }
+calculator(n1: 3, n2: 4) { $0 + $1 }
 ```
 
 <p style="text-align: justify; font-family: -apple-system, BlinkMacSystemFont, sans-serif;">Buy you don't need to do this extreme always. In general, closure expression syntax has the following form:</p>
