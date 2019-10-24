@@ -1,6 +1,8 @@
 # Site settings
 title: Antonio Silva
-description: 'Android - iOS - eSports'
+description: 'Android - iOS - eSports <typeout>'
+typeoutTextValues: '"", "Tecnologia", "Front-end", "Web 2.0", "DevOps", "Cloud computing", "Big Data", "Internet das Coisas", "Design Responsivo", "Gamification"'
+typeoutFallback: "Tecnologia"
 url: 'http://www.antoniosj.com'
 # baseurl: '/antoniosj'
 # google_analytics: 'UA-XXXXXX-X'
