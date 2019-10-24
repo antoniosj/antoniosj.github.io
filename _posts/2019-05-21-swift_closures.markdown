@@ -82,5 +82,3 @@ calculator(n1: 3, n2: 4) { $0 + $1 }
     statments
 }
 ```
-
-// under construction //
