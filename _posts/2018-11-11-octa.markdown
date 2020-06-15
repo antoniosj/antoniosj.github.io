@@ -6,7 +6,7 @@ tags: [Python, ML, NLP, NLTK, Scikit-learn]
 ---
 
 <div style="text-align:center"><img src="https://github.com/antoniosj/blog-examples/blob/master/github-images/octa.png?raw=true" width="350px;" height="350px;" /></div>
-<p style="text-align: justify; font-family: -apple-system, BlinkMacSystemFont, sans-serif;">OCTA is a tool for test case documents classification, which aims to improve its quality using Machine Learning and NLP</p> <br /> **Role:** Creator<br /> **Technologies:** Python - NLP (NLTK) - ML (SVM) - SKLearn - Flask
+<p style="text-align: justify; font-family: -apple-system, BlinkMacSystemFont, sans-serif;">OCTA is a tool for test case documents classification, which aims to improve its quality using Machine Learning and NLP</p> **Role:** Creator<br /> **Technologies:** Python - NLP (NLTK) - ML (SVM) - SKLearn - Flask
 
 ## Background
 
