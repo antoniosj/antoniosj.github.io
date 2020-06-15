@@ -1,8 +1,0 @@
----
-title:  "Copy on Write in Swift"
-date:   2019-05-20 22:00:00
-categories: [ios]
-tags: [ios, swift, mobile, copy on write]
----
-
-// under construction //
