@@ -9,7 +9,7 @@ tags: [about, projects]
 ## Work projects
 
 ## Personal projects
-<span class="indigo"><a href="https://www.antoniosj.com/2018/octa/">OCTA</a></span> - A tool for test case documents classification, which aims to improve its quality using Machine Learning and NLP
+<strong class="indigo"><a href="https://www.antoniosj.com/2018/octa/">OCTA</a></strong> - A tool for test case documents classification, which aims to improve its quality using Machine Learning and NLP
 
 ## Contributions 
 
