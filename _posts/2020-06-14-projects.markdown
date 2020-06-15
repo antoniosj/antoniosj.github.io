@@ -9,7 +9,7 @@ tags: [about, projects]
 ## Work projects
 
 ## Personal projects
-<a href="https://www.antoniosj.com/2018/octa/"><strong class="indigo">OCTA</strong></a> - A tool for test case documents classification, which aims to improve its quality using Machine Learning and NLP
+<a href="https://www.antoniosj.com/2018/octa/"><strong class="indigo">OCTA</strong></a> - A tool for test case documents classification, which aims to improve its quality using Machine Learning and NLP - Technologies: Python - NLP (NLTK) - ML (SVM) - SKLearn - Flask
 <a href="https://github.com/antoniosj/popular-actors/blob/master/README.md"><strong class="indigo">Popular Actors</strong></a> - An Android app to display the most popular actors of the week and the movies that they're known for acting in.
 
 ## Contributions 
