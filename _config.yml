@@ -1,6 +1,6 @@
 # Site settings
 title: Antonio Silva
-description: 'Android - iOS - eSports'
+description: 'Android - Trading'
 url: 'http://www.antoniosj.com'
 # baseurl: '/antoniosj'
 # google_analytics: 'UA-XXXXXX-X'
@@ -9,7 +9,7 @@ url: 'http://www.antoniosj.com'
 author:
   name: 'Antonio Silva'
   email: 
-  twitter_username: _antoniosj
+  twitter_username: 
   facebook_username: 
   github_username:  antoniosj
   linkedin_username:  antoniosj
