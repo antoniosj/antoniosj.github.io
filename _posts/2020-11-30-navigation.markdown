@@ -1,5 +1,5 @@
 ---
-title:  "Jetpack Navigation with Bottom Navigation"
+title:  "Jetpack Navigation with BottomNavigationView"
 date:   2019-11-30 22:00:00
 categories: [android]
 tags: [android, layout, navigation, jetpack]
